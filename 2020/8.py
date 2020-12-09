@@ -51,7 +51,6 @@ class AccumulatorVal:
         else:
             self.accumulator -= self.current['value']
 
-
     def _jmp(self):
         if self.current['operator'] == '+':
             self.iter += self.current['value']
